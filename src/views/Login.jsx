@@ -11,7 +11,7 @@ export default function Login ({ handleLogin }) {
 
 	return (
 		<>
-			<h1>Login</h1>
+			<h1>Login</h1>			
 			<form onSubmit={handleSubmit}>
 				<input type="email" name="email" placeholder="e.g. naruto@hiddenleaf.com" />
 				<input type="submit" value="Login" />
